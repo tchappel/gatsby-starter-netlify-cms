@@ -1,4 +1,4 @@
 ---
 templateKey: ptou-page
-title: Ebay Payment Terms of Use
+title: Payments Terms of Use
 ---
