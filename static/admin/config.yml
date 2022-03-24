@@ -32,7 +32,19 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-
+  - name: "ptou"
+    label: "PToU"
+    files:
+      - file: "src/pages/ptou/us/index.md"
+        label: "PToU-US"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "ptou-page",
+            }
+          - { label: Title, name: title, widget: string }
   - name: "pages"
     label: "Pages"
     files:
