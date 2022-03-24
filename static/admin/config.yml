@@ -37,6 +37,7 @@ collections:
     files:
       - file: "src/pages/ptou/us/index.md"
         label: "PToU-US"
+        name: "ptou-us"
         fields:
           - {
               label: "Template Key",
