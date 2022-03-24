@@ -120,11 +120,6 @@ export const PToUPageTemplate = ({ title }) => {
           </nav>
           <div className="content-sections">
             <div className="learn-more__all learn-more__all-active">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                <path d="M16,2A14,14,0,1,1,2,16,14,14,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"></path>
-                <polygon points="25 15.1 7 15.1 7 16.9 25 16.9 25 15.1 25 15.1"></polygon>
-                <polygon points="16.9 7 15.1 7 15.1 25 16.9 25 16.9 7 16.9 7"></polygon>
-              </svg>
               <p>Expand All</p>
             </div>
             <section className="content-sections--version">
@@ -2355,11 +2350,6 @@ export const PToUPageTemplate = ({ title }) => {
               </p>
               <div className="learn-more learn-more__active">
                 <header>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                    <path d="M16,2A14,14,0,1,1,2,16,14,14,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"></path>
-                    <polygon points="25 15.1 7 15.1 7 16.9 25 16.9 25 15.1 25 15.1"></polygon>
-                    <polygon points="16.9 7 15.1 7 15.1 25 16.9 25 16.9 7 16.9 7"></polygon>
-                  </svg>
                   <p>Expand Part III</p>
                 </header>
                 <div className="learn-more__txt" style={{ display: "none" }}>
@@ -3853,11 +3843,6 @@ export const PToUPageTemplate = ({ title }) => {
               </p>
               <div className="learn-more learn-more__active">
                 <header>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                    <path d="M16,2A14,14,0,1,1,2,16,14,14,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"></path>
-                    <polygon points="25 15.1 7 15.1 7 16.9 25 16.9 25 15.1 25 15.1"></polygon>
-                    <polygon points="16.9 7 15.1 7 15.1 25 16.9 25 16.9 7 16.9 7"></polygon>
-                  </svg>
                   <p>Expand Part IV</p>
                 </header>
                 <div className="learn-more__txt" style={{ display: "none" }}>
@@ -4087,11 +4072,6 @@ export const PToUPageTemplate = ({ title }) => {
               </p>
               <div className="learn-more learn-more__active">
                 <header>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                    <path d="M16,2A14,14,0,1,1,2,16,14,14,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"></path>
-                    <polygon points="25 15.1 7 15.1 7 16.9 25 16.9 25 15.1 25 15.1"></polygon>
-                    <polygon points="16.9 7 15.1 7 15.1 25 16.9 25 16.9 7 16.9 7"></polygon>
-                  </svg>
                   <p>Expand Part V</p>
                 </header>
                 <div className="learn-more__txt" style={{ display: "none" }}>
@@ -4272,11 +4252,6 @@ export const PToUPageTemplate = ({ title }) => {
               </p>
               <div className="learn-more learn-more__active">
                 <header>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                    <path d="M16,2A14,14,0,1,1,2,16,14,14,0,0,1,16,2m0-2A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z"></path>
-                    <polygon points="25 15.1 7 15.1 7 16.9 25 16.9 25 15.1 25 15.1"></polygon>
-                    <polygon points="16.9 7 15.1 7 15.1 25 16.9 25 16.9 7 16.9 7"></polygon>
-                  </svg>
                   <p>Expand Part VI</p>
                 </header>
                 <div className="learn-more__txt" style={{ display: "none" }}>

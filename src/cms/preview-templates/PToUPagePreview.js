@@ -1,26 +1,29 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { PToUPageTemplate } from '../../templates/ptou-page'
+import React from "react";
+import PropTypes from "prop-types";
+import { PToUPageTemplate } from "../../templates/ptou-page";
 
 const PToUPagePreview = ({ entry, getAsset }) => {
-  const data = entry.getIn(['data']).toJS()
+  const data = entry.getIn(["data"]).toJS();
 
   if (data) {
     return (
       <PToUPageTemplate
         title={data.title}
+        description={data.description}
+        liveURL={data.liveURL}
+        eBayDomain={data.eBayDomain}
       />
-    )
+    );
   } else {
-    return <div>Loading...</div>
+    return <div>Loading...</div>;
   }
-}
+};
 
 PToUPagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
-}
+};
 
-export default PToUPagePreview
+export default PToUPagePreview;

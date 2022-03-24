@@ -14,9 +14,7 @@ const PToULayout = ({ children }) => {
         />
         <meta name="robots" content="index, follow" />
         <meta name="referrer" content="unsafe-url" />
-        <title>
-          {title} | {eBayDomain}
-        </title>
+        <title>{`${title} | ${eBayDomain}`}</title>
         <meta name="description" content={description} />
         <meta
           name="image"
@@ -50,6 +48,8 @@ const PToULayout = ({ children }) => {
           rel="stylesheet"
           href="https://ir.ebaystatic.com/pictures/aw/pics/payment/payment-2020.css"
         />
+        <script src="https://ir.ebaystatic.com/rs/c/jquery-3.5.1.min.js"></script>
+        <script src="https://ir.ebaystatic.com/pictures/aw/pics/payment/payment-2020.js"></script>
       </Helmet>
       {children}
     </div>
