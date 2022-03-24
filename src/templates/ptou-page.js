@@ -42,7 +42,7 @@ PToUPage.propTypes = {
 export default PToUPage;
 
 export const ptouPageQuery = graphql`
-  query IndexPageTemplate {
+  query PtouPage {
     markdownRemark(frontmatter: { templateKey: { eq: "ptou-page" } }) {
       frontmatter {
         title
